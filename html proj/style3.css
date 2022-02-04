@@ -1,0 +1,194 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #f0f2f5;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+section div h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-size: 24px;
+  line-height: 28px;
+  width: auto;
+}
+
+#loginForm {
+  background: #fff;
+  align-items: center;
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 10px 0 28px;
+  width: 396px;
+  text-align: center;
+}
+.inputBox {
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  width: 330px;
+  border: 1px solid #dddfe2;
+  margin: 4px;
+}
+form {
+  margin: 0px;
+  padding: 0px;
+}
+#loginButton {
+  width: 360px;
+  padding: 14px 16px;
+  border-radius: 6px;
+  background-color: #1877f2;
+  border: none;
+  font-weight: bold;
+  color: white;
+  font-size: larger;
+  margin: 6px;
+}
+#forgot a {
+  color: #1877f2;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+}
+#forgot a:hover {
+  text-decoration: underline;
+}
+#forgot {
+  margin: 15px;
+}
+
+/* #createAcc{
+      width: 300px;
+      padding: 10px 1px 10px 1px;
+      border-radius: 6px;
+      background-color: #36A420;
+      border: none;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      color: white;
+      font-size: large;
+      margin: 6px;
+  
+  
+      
+  
+  
+     } */
+#createAccDiv {
+  padding-top: 6px;
+}
+#createAcc {
+  padding: 12px 2px 12px 2px;
+  border-radius: 6px;
+  color: white;
+  background-color: #42b72a;
+  border: 1px solid;
+  width: 200px;
+  box-sizing: content-box;
+  font-size: 17px;
+
+  font-weight: bold;
+  justify-content: center;
+  /* padding: 0 8px; */
+  position: relative;
+  text-align: center;
+  text-shadow: none;
+  vertical-align: middle;
+}
+#createAcc:hover {
+  background-color: #36a420;
+}
+#loginButton:hover {
+  background-color: #166fe5;
+}
+#createPage a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+#createPage {
+  margin-top: 28px;
+  margin-left: 25px;
+  font-size: 14px;
+}
+
+section {
+  /* display: flex;
+        flex-direction: row; */
+  position: relative;
+
+}
+#lCol {
+  width: 32%;
+  float: left;
+  margin: 50px 130px;
+  padding: 50px;
+
+  /* box-sizing: border-box; */
+  /* margin-right: 0; */
+  /* padding-right: 32px; */
+  /* width: 580px; */
+}
+#logContainer {
+  /* float: right0; */
+
+  margin: 80px 190px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+footer {
+ 
+  /* width: 100%; */
+  position: absolute;
+  bottom: 1px;
+  
+  padding: 5px;
+  display: flex;
+
+  flex-direction: column;
+  background-color: white;
+  
+}
+.footLinks {
+  
+  color: #737373;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 12px;
+  line-height: 1.6;
+}
+.hr {
+  margin: 5px 0px 5px 0px;
+  background: #dddfe2;
+  border: none;
+  height: 1px;
+}
+#fbImg {
+  /* float: left; */
+  padding: 112px 0 16px;
+}
+img {
+  height: 106px;
+  margin: -28px;
+}
+::placeholder {
+  color: #ccd0d5;
+}
+/* .footer-menu{
+display: flex;
+
+}
+.footer-container{
+
+} */

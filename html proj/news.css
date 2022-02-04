@@ -1,0 +1,242 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("fb-background.png");
+}
+#reg {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+.sign-upForm {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 15%);
+    display: inline-block;
+    border-radius: 5px;
+    margin: 20px;
+    position: relative;
+    text-align: center;
+    background: rgba(255, 255, 255, 1);
+
+}
+.registration-form {
+  position: relative;
+  display: inline-block;
+  
+}
+#fname {
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 11px;
+  width: 150px;
+  border: 1px solid #ccd0d5;
+  margin: 4px;
+  background: #f5f6f7;
+}
+#sname {
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 11px;
+  width: 150px;
+  border: 1px solid #ccd0d5;
+  background: #f5f6f7;
+
+  margin: 4px;
+}
+#email {
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 11px;
+  width: 335px;
+  border: 1px solid #ccd0d5;
+  background: #f5f6f7;
+
+  margin: 4px;
+}
+#pass {
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 11px;
+  width: 335px;
+  border: 1px solid #ccd0d5;
+  background: #f5f6f7;
+
+  margin: 4px;
+}
+select {
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 9px;
+  width: 117px;
+  border: 1px solid #ccd0d5;
+  background: #fff;
+  margin: 2px;
+}
+.gclass {
+  margin: -2px 19px 3px 13px; 
+}
+/* .gender-selector {
+  border-radius: 5px;
+  font-size: 15px;
+  line-height: 16px;
+  padding: 9px;
+  width: 100%;
+  /* border: 1px solid #ccd0d5; */
+  /* background: #f5f6f7;
+  margin: 2px; */
+/* } */ 
+
+#male{
+
+    padding: 11px 23px 11px 40px;
+   
+    
+}
+.rad {
+    
+    border-radius: 5px;
+    font-size: 15px;
+    line-height: 16px;
+    padding: 9px 11px 9px 31px;
+    width: 100%;
+    border: 1px solid #ccd0d5;
+    background: #fff;
+    margin: 2px 0px 1px 4px;
+}
+
+
+form button{
+
+    background: none;
+    background-color: #00a400;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 62px;
+    text-shadow: none;
+}
+.term-text{
+
+    color: #777;
+    font-size: 11px;
+    width: 390px;
+    margin: 19px;
+
+    
+}
+.sign-upForm{
+
+    overflow: visible;
+    padding: 0;
+    width: 432px;
+    height: 490px;
+}
+.sign-up{
+
+    color: #1c1e21;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 38px;
+    margin-bottom: 0;
+    padding-left: 0px;
+}
+.tagLine{
+
+  color: #606770;
+  font-family: SFProText-Regular, Helvetica, Arial, sans-serif;
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+}
+.close-img{
+    display: block;
+    /* margin-left: 90%; */
+    top: 8px;
+    right: 3px;
+    position: absolute;
+}
+.topdiv{
+    display: inline-block;
+   
+    text-align: left;
+
+    background-color: #fff;
+    margin-top: 0;
+   
+    align-items: center;
+    
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    padding: 10px 0px 0px;
+    position: relative;
+    width: 377px;
+    /* z-index: 1; */
+
+
+}
+hr{
+    margin: 10px 0px 10px 0px;
+    background: #dddfe2;
+    border: none;
+    height: 1px;
+}
+a{
+    text-decoration: none;
+    color: #385898;;
+}
+.dblabel{
+  font-size: smaller;
+  text-align: left;
+  color: #606770;
+  line-height: 20px;
+  margin-top: 2px;
+  margin-left: -262px;
+}
+#que{
+  height: 15px;
+  margin-bottom: -3px;
+  
+}
+.genderr{
+  font-size: smaller;
+  text-align: left;
+  color: #606770;
+  line-height: 36px;
+  margin-left: -286px;
+}
+.side-logo{
+  position: relative;
+  
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  color: white;
+  background-color: #BE4B49;
+  padding: 14px 9px 14px 8px;
+  border-radius: 2px;
+  
+  box-shadow: 0 0 0 1px rgba(139, 3, 0, .75), 0 1px 10px rgba(0, 0, 0, .35);
+  
+}
+#triangle{
+  position: absolute;
+  height: 26px;
+  left: 136px;
+  transform: rotate(90deg);
+  bottom: 8px;
+
+}
+#side-logo1{
+  position: absolute;
+  top: 8px;
+  width: 125px;
+  left: -145px;
+  
+}
